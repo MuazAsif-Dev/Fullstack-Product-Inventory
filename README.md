@@ -44,7 +44,7 @@ Link to site [here](https://fullstack-product-inventory.000webhostapp.com/).
 #### Save product
 
 ```
-  GET /backend/save
+  POST /backend/save
 ```
 
 | Parameter | Type     | Description                       |
@@ -55,7 +55,7 @@ Link to site [here](https://fullstack-product-inventory.000webhostapp.com/).
 #### Delete product
 
 ```
-  GET /backend/delete/${id}
+  DELETE /backend/delete/${id}
 ```
 
 | Parameter | Type     | Description                       |
