@@ -35,7 +35,7 @@ const AddProduct = () => {
 
     values["type"] = selection.toLowerCase()
 
-    const url = "http://localhost/scandiweb-test/backend/save.php"
+    const url = "http://localhost/backend/save.php"
     // const url = "https://fullstack-product-inventory.000webhostapp.com/scandiweb-test/backend/save.php"
 
     axios
