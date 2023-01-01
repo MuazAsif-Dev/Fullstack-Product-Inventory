@@ -11,7 +11,7 @@ const ListProduct = () => {
   useEffect(() => {
 
      
-    const url = "http://localhost/scandiweb-test/backend/load.php"
+    const url = "http://localhost/backend/load.php"
     // const url = "https://fullstack-product-inventory.000webhostapp.com/scandiweb-test/backend/load.php"
 
     axios.get(url)
@@ -42,7 +42,7 @@ const ListProduct = () => {
     const difference = productList.filter(elem => !selectedProducts.includes(elem));
     setProductList(difference);
 
-    const url = "http://localhost/scandiweb-test/backend/delete.php"
+    const url = "http://localhost/backend/delete.php"
     // const url = "https://fullstack-product-inventory.000webhostapp.com/scandiweb-test/backend/delete.php"
     
     axios
