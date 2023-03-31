@@ -21,6 +21,7 @@ Link to site [here](https://fullstack-product-inventory.000webhostapp.com/).
 
 **Server:** PHP
 
+**Database:** MySQL
 
 ## Screenshots
 
