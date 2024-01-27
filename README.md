@@ -2,9 +2,6 @@
 # Fullstack Product Inventory
 
 A fullstack webapp simulating an e-commerce site with the ability to list, add and delete products. The rendering of the components is done without any conditional statements using concepts, such as **Polymorphic Dispatch** and **Dynamic Keys Bindings**.
-## Demo
-
-Link to site [here](https://fullstack-product-inventory.000webhostapp.com/).
 
 ## Features
 
