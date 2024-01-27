@@ -12,7 +12,6 @@ const ListProduct = () => {
 
      
     const url = "http://localhost/backend/load.php"
-    // const url = "https://fullstack-product-inventory.000webhostapp.com/scandiweb-test/backend/load.php"
 
     axios.get(url)
          .then((response) => {
@@ -43,7 +42,6 @@ const ListProduct = () => {
     setProductList(difference);
 
     const url = "http://localhost/backend/delete.php"
-    // const url = "https://fullstack-product-inventory.000webhostapp.com/scandiweb-test/backend/delete.php"
     
     axios
       .post(url,selectedProducts)
@@ -85,7 +83,7 @@ const ListProduct = () => {
       <div className='divider'></div>
       <footer>
         <p>
-          Scandiweb Test assignment
+          All Rights Reserved
         </p>
       </footer>
     </div>

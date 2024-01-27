@@ -36,7 +36,6 @@ const AddProduct = () => {
     values["type"] = selection.toLowerCase()
 
     const url = "http://localhost/backend/save.php"
-    // const url = "https://fullstack-product-inventory.000webhostapp.com/scandiweb-test/backend/save.php"
 
     axios
       .post(url,values)
@@ -107,7 +106,7 @@ const AddProduct = () => {
         <div className='divider'></div>
         <footer>
             <p>
-                Scandiweb Test assignment
+              All Rights Reserved
             </p>
         </footer>
     </div>
